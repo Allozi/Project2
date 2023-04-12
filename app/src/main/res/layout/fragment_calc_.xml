@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Calc_Fragment">
+
+    <TextView
+        android:id="@+id/first_number_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first_number_label" />
+
+    <EditText
+        android:id="@+id/num1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/operator_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="operator_label" />
+
+    <Spinner
+        android:id="@+id/operator_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/second_number_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second_number_label" />
+
+    <EditText
+        android:id="@+id/num2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate_button_label" />
+
+    <TextView
+        android:id="@+id/result_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result_label" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
